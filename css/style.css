@@ -8,7 +8,7 @@ body{
     background: white;
 	margin: 0 10px;
 }
-
+/* header */
 .header {
     background: rgb(40, 40, 70);
     padding: 20px;
@@ -16,7 +16,7 @@ body{
     justify-content: space-between;
 	align-items: center;
 }
-
+/* picture and name */
 .header div {
     font-size: 30px;
 	padding: 0;
@@ -35,7 +35,7 @@ body{
     border: 2px solid rgb(40, 40, 70);
     margin:  10px;
 }
-
+/* navigation menu */
 .header nav ul {
 	list-style-type: none;
     margin-left: 25px;
@@ -55,7 +55,7 @@ li > a{
 	color: aqua;
 	padding: 10px;
 }
-
+/* banner */
 .hero-banner {
     display: flex;
     justify-content: flex-end;
@@ -66,22 +66,26 @@ li > a{
     background-image: url(../images/02-hero-bg.jpg);
 	height: 200px;
 }
+/* stock admin turned web developer */
 .hero-banner div {
     background-color: aqua;
     color:rgb(40, 40, 70) ;
-	margin:20px;
+	margin:0 80px 30px;
 	padding: 10px;
 }
+/* about me paragraph */
 p {
     font-size: 30px;
 	padding: 20px;
 }
+
 .page-wrapper{
     max-width: 100%;
     margin: 10px auto;
     padding: 20px;
     display:grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
+	grid-template-rows: 1fr 3fr 1fr;
 }
 .header-section{
     font-size: 35px;
