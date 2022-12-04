@@ -3,10 +3,9 @@
     padding: 0;
     margin: 0;
 }
+
 body{
     background: white;
-    line-height: 1.7;
-    font-size: 13px;
 }
 
 .header {
@@ -15,37 +14,42 @@ body{
     display: flex;
     justify-content: space-between;
 	align-items: center;
+
 }
 
 .header div {
     font-size: 30px;
-    color:rgb(40, 40, 70);
 	padding: 0;
     background-color: aqua;
 	display: flex;
+	align-items: center;
+}
+.header div h1{
+	color:rgb(40, 40, 70);
+	padding: 0 10px;
 }
 .header div img{
     height: 65px;
-    border-radius: 10%;
-    border: 2px solid purple;
-    margin: auto 10px;
+    border-radius: 50%;
+    border: 2px solid rgb(40, 40, 70);
+    margin:  10px;
 }
 
 .header nav ul {
 	list-style-type: none;
     margin-left: 25px;
+	margin-right: 25px;
 	display: flex;
+	align-items: stretch;
 }
 
 li {
-	color: blue;
-	font: size 16px;;
-	line-height: 1.5;
 	padding: 10px;
-	margin: left 25px;
+	margin-right:  25px;
 }
+
 li > a{
-	font-size: 38px;
+	font-size: 35px;
 	line-height: 1.5;
 	color: aqua;
 	padding: 10px;
@@ -147,7 +151,7 @@ h2{
 .contact-me div ul{
 	display: flex;
 	flex-direction: row;
-	:space-around;
+	justify-content:space-around;
 
 }
 .contact-me div ul li{
@@ -155,6 +159,17 @@ h2{
 }
 
 @media(max-width: 768px) {
+	.header {
+		font-size: 20px;
+		flex-direction: column;
+	}
+
+	li > a{
+		font-size: 20px;
+		line-height: 1.5;
+		color: aqua;
+		padding: 5px;
+	}
 
 	.page-wrapper{
 		width: 100%;
