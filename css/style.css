@@ -11,18 +11,14 @@ body{
 
 .header {
     background: rgb(40, 40, 70);
-    padding: 10px;
-    /* margin: 10px; */
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 	align-items: center;
 }
-h1{
-	padding: 0;
-}
 
 .header div {
-    font-size: 36px;
+    font-size: 30px;
     color:rgb(40, 40, 70);
 	padding: 0;
     background-color: aqua;
@@ -42,6 +38,7 @@ h1{
 }
 
 li {
+	color: blue;
 	font: size 16px;;
 	line-height: 1.5;
 	padding: 10px;
@@ -50,7 +47,7 @@ li {
 li > a{
 	font-size: 38px;
 	line-height: 1.5;
-	color: #ffffff;
+	color: aqua;
 	padding: 10px;
 }
 
@@ -71,8 +68,8 @@ p {
 	height: 200px;
 }
 .hero-banner div {
-    background-color: #2589bd;
-    color:white ;
+    background-color: aqua;
+    color:rgb(40, 40, 70) ;
 	margin-right:20px; ;
 	margin-bottom:20px;;
 }
@@ -104,11 +101,6 @@ p {
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 3fr 1fr 1fr;
 }
-.about-me{
-	display: flex;
-	flex-direction: column;
-	align-content:space-around;
-}
 .work{
     border: 5px solid #2589bd;
 	color: rgb(40, 40, 70);
@@ -124,7 +116,7 @@ p {
 }
 
 h2{
-    text-align: right;
+    /* text-align: right; */
 }
 .work1 img{
 	width: fit-content;
@@ -151,6 +143,15 @@ h2{
 }
 .work5{
     background-image: url(../images/02-run-buddy.jpg);
+}
+.contact-me div ul{
+	display: flex;
+	flex-direction: row;
+	:space-around;
+
+}
+.contact-me div ul li{
+
 }
 
 @media(max-width: 768px) {
