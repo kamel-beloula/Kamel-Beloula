@@ -78,6 +78,7 @@ p {
     font-size: 30px;
 	padding: 20px;
 }
+/* main content */
 .page-wrapper{
     max-width: 100%;
     margin: 10px;
@@ -121,15 +122,13 @@ p {
 	float: inline-start;
 }
 
-h2{
-    /* text-align: right; */
-}
 .work1 img{
 	width: fit-content;
 	height: fit-content;
 	background-size: cover;
- 	background-position: center;
-}
+ 	background-position: center; 
+	}
+
 .work{
    	background-size: cover;
     background-position: center;
