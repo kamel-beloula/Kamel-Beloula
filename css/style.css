@@ -91,7 +91,7 @@ p {
 }
 	
 .header-section h2{
-	float:center;
+	float:right;
 	color: rgb(40, 40, 70);
 	font-size: 10vh;
 }
@@ -126,10 +126,6 @@ p {
 h2{
     text-align: right;
 }
-.contact-me{
-    display:flex ;
-    justify-content: center;
-}
 .work1 img{
 	width: fit-content;
 	height: fit-content;
@@ -156,6 +152,7 @@ h2{
 .work5{
     background-image: url(../images/02-run-buddy.jpg);
 }
+
 @media(max-width: 768px) {
 
 	.page-wrapper{
