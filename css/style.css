@@ -6,7 +6,7 @@
 
 body{
     background: white;
-	margin: 10px;
+	margin: 0 10px;
 }
 
 .header {
@@ -27,6 +27,7 @@ body{
 .header div h1{
 	color:rgb(40, 40, 70);
 	padding: 0 10px;
+	margin-right: 10px;
 }
 .header div img{
     height: 65px;
