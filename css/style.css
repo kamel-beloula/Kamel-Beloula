@@ -89,24 +89,29 @@ p {
 }
 .header-section{
     font-size: 35px;
-    padding: 30px;
-    margin: 50px;
+    padding: 10px;
+    margin: 20px;
     border-right: 5px solid rgb(40, 40, 70);
 }
 	
 .header-section h2{
-	float:right;
+	font-size: 24px;
+	text-align: right;
 	color: rgb(40, 40, 70);
 	font-size: 10vh;
 }
 
-.section-content{
+.mywork{
     padding: 25px;
     margin: 10px;
 	padding: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 3fr 1fr 1fr;
+}
+.about-me{
+	display: flexbox;
+	flex-direction: column;
 }
 .work{
     border: 5px solid #2589bd;
@@ -122,12 +127,12 @@ p {
 	float: inline-start;
 }
 
-.work1 img{
-	width: fit-content;
-	height: fit-content;
-	background-size: cover;
- 	background-position: center; 
-	}
+/* .work1 img{
+width: fit-content;
+height: fit-content;
+background-size: cover;
+background-position: center; 
+}*/
 
 .work{
    	background-size: cover;
@@ -159,6 +164,47 @@ p {
 
 }
 
+@media(max-width: 1440px) {
+	.header {
+		font-size: 20px;
+		flex-direction: column;
+	}
+
+	li > a{
+		font-size: 25px;
+		line-height: 1.5;
+		color: aqua;
+		padding: 5px;
+	}
+
+	/* .page-wrapper{
+		width: 100%;
+		grid-template-columns: 1fr;
+	}
+	.section-content{
+		width:100%;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+	}
+	.work1{
+		grid-column: 1;
+	}
+	.header-section{
+		border-right: 0;
+		border-bottom: 3px solid blue;
+		align-content: center;
+	}
+	.header{
+		flex-direction: column;
+	}
+	.hero-banner div {
+		background-color: aqua;
+		color:rgb(40, 40, 70) ;
+		margin:20px;
+		padding: 10px;
+		justify-self: center;
+	}
+} */
 @media(max-width: 768px) {
 	.header {
 		font-size: 20px;
@@ -191,5 +237,12 @@ p {
 	}
 	.header{
 		flex-direction: column;
+	}
+	.hero-banner div {
+		background-color: aqua;
+		color:rgb(40, 40, 70) ;
+		margin:20px;
+		padding: 10px;
+		justify-self: center;
 	}
 }
