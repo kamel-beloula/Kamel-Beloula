@@ -7,6 +7,8 @@
 body{
     background: white;
 	margin: 0 10px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 16px;
 }
 /* header */
 .header {
@@ -177,7 +179,7 @@ background-position: center;
 		padding: 5px;
 	}
 
-	/* .page-wrapper{
+	 .page-wrapper{
 		width: 100%;
 		grid-template-columns: 1fr;
 	}
