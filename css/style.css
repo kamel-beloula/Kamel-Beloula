@@ -20,7 +20,7 @@ body{
 }
 /* picture and name */
 .header div {
-    font-size: 30px;
+    font-size: 2rem;
 	padding: 0;
     background-color: aqua;
 	display: flex;
@@ -38,21 +38,21 @@ body{
     margin:  10px;
 }
 /* navigation menu */
-.header nav ul {
+.header nav ul{
 	list-style-type: none;
     margin-left: 25px;
-	margin-right: 25px;
+	margin-right: 50px;
 	display: flex;
 	align-items: stretch;
 }
 
-li {
+.header nav ul li {
 	padding: 10px;
-	margin-right:  25px;
+	margin-right: px;
 }
 
-li > a{
-	font-size: 35px;
+.header nav ul li > a{
+	font-size: 2rem;
 	line-height: 1.5;
 	color: aqua;
 	padding: 10px;
@@ -62,7 +62,6 @@ li > a{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    /* margin-bottom: 0 10px; */
     background-size: cover;
     background-position: center;
     background-image: url(../images/02-hero-bg.jpg);
@@ -75,9 +74,13 @@ li > a{
 	margin:0 80px 30px;
 	padding: 10px;
 }
+.hero-banner div h2 {
+	font-size: 3rem;
+}
+
 /* about me paragraph */
 p {
-    font-size: 30px;
+    font-size: 2rem;
 	padding: 20px;
 }
 /* main content */
@@ -90,23 +93,22 @@ p {
 	grid-template-rows:0.2fr 1fr 0.2fr;
 }
 .header-section{
-    font-size: 25px;
-    padding: 10px;
+    padding:0 10px 0 30%;
     margin: 20px;
     border-right: 5px solid rgb(40, 40, 70);
 }
 	
 .header-section h2{
-	font-size: 24px;
 	text-align: right;
 	color: rgb(40, 40, 70);
-	font-size: 10vh;
+	font-size: 5rem;
 }
 
 .mywork{
     padding: 25px;
     margin: 10px;
 	padding: 0 auto;
+	min-height: 1000px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 3fr 1fr 1fr;
@@ -122,20 +124,17 @@ p {
 }
 .work-details{
 	background: #2589bd;
-    padding: 10px;
-    margin: 10px 0;
-	padding: 10 auto;
 	width: fit-content;
-	float: inline-start;
+	align-items: center;
 }
-
-/* .work1 img{
-width: fit-content;
-height: fit-content;
-background-size: cover;
-background-position: center; 
-}*/
-
+.work-details h3{
+	font-size: 2rem;
+	padding: auto;
+}
+.work-details p{
+	font-size: 22px;
+	padding: 0%;
+}
 .work{
    	background-size: cover;
     background-position: center;
@@ -156,14 +155,21 @@ background-position: center;
 .work5{
     background-image: url(../images/02-run-buddy.jpg);
 }
-.contact-me div ul{
+
+.contact-me nav ul{
+	list-style-type: none;
 	display: flex;
 	flex-direction: row;
-	justify-content:space-around;
-
+	align-items: stretch;
 }
-.contact-me div ul li{
 
+.contact-me nav ul li {
+	padding: 10px;
+	margin-right: px;
+	font-size: 2rem;
+	line-height: 1.5;
+	color: aqua;
+	padding: 10px;
 }
 
 @media(max-width: 1440px) {
@@ -205,7 +211,12 @@ background-position: center;
 		padding: 10px;
 		justify-self: center;
 	}
-} */
+	.header-section h2{
+		text-align: left;
+		color: rgb(40, 40, 70);
+		font-size: 3rem;
+	}
+}
 @media(max-width: 768px) {
 	.header {
 		font-size: 10px;
@@ -245,17 +256,32 @@ background-position: center;
 		padding: 10px;
 		justify-self: center;
 	}
+	.header-section h2{
+		text-align: left;
+		color: rgb(40, 40, 70);
+		font-size: 3rem;
+	}
 }
 @media(max-width: 375px) {
 	.header {
 		font-size: 9px;
 		flex-direction: column;
 	}
+	ul{
+		justify-content: space-between;
+	}
 
+	li{
+		margin: 5px;
+		padding: 0;
+	}
+	
 	li > a{
-		font-size: 9px;
+		font-size: 14px;
 		color: aqua;
 		padding: 5px;
+		margin: 0;
+
 	}
 
 	.page-wrapper{
@@ -284,5 +310,10 @@ background-position: center;
 		margin:20px;
 		padding: 10px;
 		justify-self: center;
+	}
+	.header-section h2{
+		text-align: left;
+		color: rgb(40, 40, 70);
+		font-size: 3rem;
 	}
 }
