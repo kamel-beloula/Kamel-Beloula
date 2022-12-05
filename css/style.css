@@ -90,7 +90,7 @@ p {
 	grid-template-rows:0.2fr 1fr 0.2fr;
 }
 .header-section{
-    font-size: 35px;
+    font-size: 25px;
     padding: 10px;
     margin: 20px;
     border-right: 5px solid rgb(40, 40, 70);
@@ -174,7 +174,6 @@ background-position: center;
 
 	li > a{
 		font-size: 25px;
-		line-height: 1.5;
 		color: aqua;
 		padding: 5px;
 	}
@@ -209,13 +208,52 @@ background-position: center;
 } */
 @media(max-width: 768px) {
 	.header {
-		font-size: 20px;
+		font-size: 10px;
 		flex-direction: column;
 	}
 
 	li > a{
-		font-size: 20px;
-		line-height: 1.5;
+		font-size: 10px;
+		color: aqua;
+		padding: 5px;
+	}
+
+	.page-wrapper{
+		width: 100%;
+		grid-template-columns: 1fr;
+	}
+	.section-content{
+		width:100%;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+	}
+	.work1{
+		grid-column: 1;
+	}
+	.header-section{
+		border-right: 0;
+		border-bottom: 3px solid blue;
+		align-content: center;
+	}
+	.header{
+		flex-direction: column;
+	}
+	.hero-banner div {
+		background-color: aqua;
+		color:rgb(40, 40, 70) ;
+		margin:20px;
+		padding: 10px;
+		justify-self: center;
+	}
+}
+@media(max-width: 375px) {
+	.header {
+		font-size: 9px;
+		flex-direction: column;
+	}
+
+	li > a{
+		font-size: 9px;
 		color: aqua;
 		padding: 5px;
 	}
