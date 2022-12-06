@@ -3,29 +3,40 @@
 
 ## Description
 
-The Horiseon website is designed to promote its business. Horiseon's business is to help other businesses improve their online presence. Horiseon offers services such as Search Engine Optimization, Online Reputation Management, and Social Media Marketing.
+This application serves as my portfolio. Users can click on work to view websites I have created independently and collaboratively. Users can click on about and resume to learn more about me and my skills. Users can click on contact and send me a message or an e-mail using the contact details on the page.   Created with HTML and styled with CSS. Mobile responsive.
 
-Deployed application: https://kamel-beloula.github.io/Horiseon-code-refactor/
+Deployed application: https://kamel-beloula.github.io/Kamel-Beloula/
 
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Deployed application](#deployed-application)
+- [Screen Shot](#screen-shot)
 - [Credits](#credits)
 - [License](#license)
 
 
 ## Installation
 
-In order to visualise the application you will only need a web browser, which usually comes pre-installed on every device that can access the internet.
+In order to install this project, you must login to GitHub and go to github.com/iescandon/inescandon. Once there you will click on the green button that says clone or download. You will be given choices on how to download: using the ssh/html key or downloading the zip file.
 
-If you need to download one, you can dowmload [**Google Chrome**](https://www.google.co.uk/chrome/).
+Using SSH/HTML Key: You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone paste url here. Once you have cloned the htx-tacos repo, cd into the repo and type "open ." to open the folder which contains all files used for the website. You can also type "code ." to open the repo in VS code.
 
+Using Download ZIP: Click on Download Zip. Locate the file and double click it to unzip the file. Locate the unzipped folder and and open it. All the files for the website will be within this folder.
 
 ## Usage
 
-you can open the application by following the link to the deployed website in the description. Or you can open the repository on [www.github.com](https://github.com/kamel-beloula/Horiseon-code-refactor)
+Simply click on the live link listed above and use the website as normal
+
+
+## Deployed application
+
+
+
+## Screen Shot
+
 
 
 ## Credits
