@@ -1,11 +1,9 @@
-# HORISEON Website Refactor
+# Kamel Beloula Portfolio
 
 
 ## Description
 
 This application serves as my portfolio. Users can click on work to view websites I have created independently and collaboratively. Users can click on about and resume to learn more about me and my skills. Users can click on contact and send me a message or an e-mail using the contact details on the page.   Created with HTML and styled with CSS. Mobile responsive.
-
-Deployed application: https://kamel-beloula.github.io/Kamel-Beloula/
 
 
 ## Table of Contents
@@ -13,12 +11,13 @@ Deployed application: https://kamel-beloula.github.io/Kamel-Beloula/
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployed application](#deployed-application)
-- [Screen Shot](#screen-shot)
+- [Screen Shot](#screenshot)
 - [Credits](#credits)
 - [License](#license)
 
 
 ## Installation
+
 
 In order to install this project, you must login to GitHub and go to github.com/iescandon/inescandon. Once there you will click on the green button that says clone or download. You will be given choices on how to download: using the ssh/html key or downloading the zip file.
 
@@ -32,11 +31,11 @@ Simply click on the live link listed above and use the website as normal
 
 
 ## Deployed application
+https://kamel-beloula.github.io/Kamel-Beloula/
 
 
-
-## Screen Shot
-
+## Screenshot
+![Deploted application screen shot](./images/screenshot.png)
 
 
 ## Credits
