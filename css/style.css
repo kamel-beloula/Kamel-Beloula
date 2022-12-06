@@ -4,11 +4,18 @@
     margin: 0;
 }
 
-body{
+/* body{
     background: white;
 	margin: 0 10px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 16px;
+} */
+body{
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
 }
 /* header */
 .header {
@@ -25,6 +32,7 @@ body{
     background-color: aqua;
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 }
 .header div h1{
 	color:rgb(40, 40, 70);
@@ -38,24 +46,33 @@ body{
     margin:  10px;
 }
 /* navigation menu */
-.header nav ul{
+ul{
 	list-style-type: none;
     margin-left: 25px;
 	margin-right: 50px;
 	display: flex;
-	align-items: stretch;
+	align-items: center;
 }
 
-.header nav ul li {
+li {
 	padding: 10px;
 	margin-right: px;
 }
 
-.header nav ul li > a{
+a{
 	font-size: 2rem;
 	line-height: 1.5;
 	color: aqua;
 	padding: 10px;
+}
+/* contact me menu */
+.about-ul{
+	display: flex;
+	align-items: baseline;
+}
+.about-me a{
+	color: rgb(40, 40, 70);
+	
 }
 /* banner */
 .hero-banner {
@@ -78,7 +95,7 @@ body{
 	font-size: 3rem;
 }
 
-/* about me paragraph */
+/* about-me paragraph */
 p {
     font-size: 2rem;
 	padding: 20px;
@@ -93,16 +110,16 @@ p {
 	grid-template-rows:0.2fr 1fr 0.2fr;
 }
 .header-section{
-    padding:0 10px 0 40%;
-    margin: 30px 0 30px 0;
+    padding:0 10px 0 20%;
+    margin: 20px 0 20px 0;
     border-right: 5px solid rgb(40, 40, 70);
-	float: inline-end;
+	float: inline;
 }
 	
 .header-section h2{
 	text-align: right;
 	color: rgb(40, 40, 70);
-	font-size: 5rem;
+	font-size: 4rem;
 }
 
 .mywork{
@@ -156,20 +173,40 @@ p {
 .work5{
     background-image: url(../images/02-run-buddy.jpg);
 }
+section a:hover {
+	opacity: 50%;
+  }
 
 .contact-me ul{
 	list-style-type: none;
 	display: flex;
-	flex-direction: row;
-	align-items: stretch;
+	justify-content: center;
 }
 
-.contact-me ul li {
+.contact-ul li {
 	padding: 10px;
 	margin-right: px;
 	font-size: 2rem;
 	line-height: 1.5;
+	justify-self: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width: 1440px) {
 	.header {
@@ -219,6 +256,26 @@ p {
 		color: rgb(40, 40, 70);
 		font-size: 3rem;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media(max-width: 768px) {
 	.header {
@@ -265,6 +322,26 @@ p {
 		font-size: 3rem;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 375px) {
 	.header {
 		font-size: 9px;
